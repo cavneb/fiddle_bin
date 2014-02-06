@@ -30,16 +30,5 @@ class Entry < ActiveRecord::Base
       username: username
     })
   end
-
-  def as_json
-    {
-      id: self.id,
-      description: self.description,
-      user: self.user.as_json,
-      edit_link: self.edit_link,
-      share_link: self.share_link,
-      embed_url: self.embed_url
-    }
-  end
 end
 

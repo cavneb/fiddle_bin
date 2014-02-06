@@ -39,6 +39,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'ember-appkit-rails', git: 'git@github.com:dockyard/ember-appkit-rails.git', branch: 'master'
+gem 'active_model_serializers'
 
 group :development, :test do
   gem 'rspec-rails'

@@ -206,6 +206,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers
   coffee-rails (~> 4.0.0)
   ember-appkit-rails!
   jazz_hands
