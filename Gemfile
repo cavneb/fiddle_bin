@@ -40,6 +40,7 @@ end
 
 gem 'ember-appkit-rails', git: 'git@github.com:dockyard/ember-appkit-rails.git', branch: 'master'
 gem 'active_model_serializers'
+gem 'foundation-rails', git: 'git@github.com:cavneb/foundation-rails.git'
 
 group :development, :test do
   gem 'rspec-rails'

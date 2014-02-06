@@ -1,4 +1,12 @@
 GIT
+  remote: git@github.com:cavneb/foundation-rails.git
+  revision: 5ea74636c138af8991f410d14bf58c437f5b878b
+  specs:
+    foundation-rails (5.1.0.0)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
+
+GIT
   remote: git@github.com:dockyard/ember-appkit-rails.git
   revision: c2eefca677abf2b04a7866c24e1f40dec485ff51
   branch: master
@@ -209,6 +217,7 @@ DEPENDENCIES
   active_model_serializers
   coffee-rails (~> 4.0.0)
   ember-appkit-rails!
+  foundation-rails!
   jazz_hands
   jquery-rails
   pg
