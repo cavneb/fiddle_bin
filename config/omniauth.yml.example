@@ -1,0 +1,10 @@
+development: &defaults
+  github_key: CLIENT_ID
+  github_secret: CLIENT_SECRET
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+

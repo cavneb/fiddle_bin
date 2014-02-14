@@ -40,7 +40,16 @@ end
 
 gem 'ember-appkit-rails', git: 'git@github.com:dockyard/ember-appkit-rails.git', branch: 'master'
 gem 'active_model_serializers'
-gem 'foundation-rails', git: 'git@github.com:cavneb/foundation-rails.git'
+gem 'foundation-rails', '~> 5.1.1.0'
+gem 'font-awesome-sass'
+gem 'fiddle_fart', path: '/Users/ericb/Projects/OpenSource/fiddle_fart'
+gem 'omniauth-github'
+
+group :development do
+  gem 'guard-rspec'
+  gem 'capybara'
+  gem 'poltergeist'
+end
 
 group :development, :test do
   gem 'rspec-rails'

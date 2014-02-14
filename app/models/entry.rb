@@ -2,7 +2,7 @@ class Entry < ActiveRecord::Base
   belongs_to :user
 
   def self.new_from_url(url)
-    obj = Drivers::Parser.parse(url)
+    obj = FiddleFart::Parser.parse(url)
     entry = self.new
     entry.site = obj.class.name
     entry.remote_id = obj.try(:id)
